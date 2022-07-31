@@ -1,0 +1,55 @@
+@media (max-width: 1200px) {
+    .container-2 {
+        width: 80%;
+    }
+    .project-cont {
+        width: 90%;
+    }
+    .project-text{
+        flex-basis: 55%;
+    }
+    .project-img-cont {
+        flex-basis: 45%;
+    }
+}
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+    header {
+        margin-bottom: 3rem;
+    }
+    .project-cont {
+        flex-direction: column;
+    }
+    .project-img-cont {
+        text-align: center;
+    }
+    .project-img {
+        width: 100%;
+    }
+    .role {
+        padding: 3rem 0;
+    }
+    .role-cont {
+        flex-direction: column;
+    }
+    .role-1{
+        margin-bottom: 1.5rem;
+    }
+    .process {
+        padding: 2rem 0 4rem 0;
+    }
+    .fidelity h2 {
+        margin: 2rem 0;
+    }
+    .dark-mode, .white-mode  {
+        padding: 2rem 0;
+    }
+    .fidelity h2 {
+        margin: 2rem 0;
+    }
+    .white-mode h2, .dark-mode h2{
+        margin-bottom: 2rem;
+    }
+}
